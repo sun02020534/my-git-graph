@@ -7,6 +7,11 @@ int fib(int n)
   return fib(n-1) + fib(n-2);
 }
 
+int sum(int a, int b)
+{
+  return a + b;
+}
+
 int main()
 {
   printf("Hello world!\n");
